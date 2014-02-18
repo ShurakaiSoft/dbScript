@@ -41,9 +41,6 @@ describe("Script", function () {
 			});
 		});
 	});
-	describe("Database Connection", function () {
-		it("should have a connection to a database");
-	});
     describe("Load Data into Database", function () {
         it("should add documents to collections");
     });
