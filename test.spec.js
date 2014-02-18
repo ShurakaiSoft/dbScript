@@ -15,6 +15,16 @@ describe("Script", function () {
 		var app = require('./dbScript');
 		should.exist(app);
 	});
+	describe("Documents", function () {
+		var docs = require('./lib/docs');
+		describe("load", function () {
+			it("should exist as function", function () {
+				should.exist(docs.load);
+				docs.load.should.be.a.Function;
+			});
+			it("should load a file");
+		});
+	});
 	describe("Database Connection", function () {
 		it("should have a connection to a database");
 	});
