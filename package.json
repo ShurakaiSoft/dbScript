@@ -5,7 +5,7 @@
     "description": "A simple script populate a mongoDB with some data",
     "scripts": {
         "start": "node app.js",
-        "test": "mocha -R spec test.spec.js"
+        "test": "mocha -R spec --recursive ./test"
     },
     "repository": {
         "type": "git",
